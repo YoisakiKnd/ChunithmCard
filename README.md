@@ -14,3 +14,22 @@
     'しぐれうい' // 头衔文案
 );
  ```
+
+ ## 示例
+ 这是一个默认用来显示卡片的html页面示例，仅供参考
+ ```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChunithmCard</title>
+    <link rel="stylesheet" href="style.css"> // 导入css
+</head>
+<body>
+    <div id="playerDisplay"></div> // 导入卡片
+
+    <script src="script.js"></script> // 导入js
+</body>
+</html>
+```
