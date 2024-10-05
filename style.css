@@ -1,0 +1,72 @@
+.player-container {
+    position: relative;
+    width: 576px;
+    height: 228px;
+    background-image: url('https://chunithm.wahlap.com/mobile/img/917697c9bea43c39.png');
+    background-size: cover;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+/* Honor Container with absolute position */
+.honor-container {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 10px; /* Adjust position */
+    left: 50%;
+    transform: translateX(-50%); /* Center the honor image horizontally */
+}
+
+.honor {
+    width: 180%;
+    height: auto;
+    right: 20px
+}
+
+.honor-text {
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+/* Avatar Container */
+.avatar-container {
+    position: absolute;
+    background-color: rgba(226, 219, 219, 0.486); /* 半透明黑色背景 */
+    padding: 5px;
+    top: 60px; /* 调整位置 */
+    right: 20px; /* 调整位置 */
+}
+
+.avatar {
+    width: 128px;
+    height: 128px;
+}
+
+/* Player Name */
+.player-name {
+    position: absolute;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    left: 210px;
+    top: 100px;
+}
+
+/* Player Rating */
+.player-rating {
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(255, 208, 0);
+    bottom: 30px; /* Adjust position */
+    left: 42%;
+    transform: translateX(-50%);
+}
